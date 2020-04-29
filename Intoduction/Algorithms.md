@@ -36,8 +36,9 @@ Best, Worse and average case scenerio depends on luck for this matter.
 **For example:** For a list of **2000000 elements**
 
 Computer selects 1 and you get the number on your first guess. **(Best Case)**
+Computer selects 2000000, you would need 2000000 guesses **(Worse Case)**
+Computer selects 1000000, you would need 1000000 guesses **(Average Case)**
 
-Computer selects 2000000, you would need 2000000 guesses
 
 
 
