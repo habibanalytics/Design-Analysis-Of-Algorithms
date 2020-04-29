@@ -16,15 +16,10 @@ Algorithm that gives good but not best result in minimum time.
 Case Scenerios to know about:
 
 *	Best case
-
 *	Average case
-
 *	Worse case
 
 # Guessing Game
-
-[Play Game](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game)
-(You'll need account of khan academy to access)
 
 Given a **sorted list** computer guessed a random number from it.
 We search that number given the computer tells us if the guessed number is larger or smaller than our selected value.
@@ -44,6 +39,10 @@ Computer selects 1000000, you would need 1000000 guesses **(Average Case)**
 # Binary Search
 *	Works on sorted list.
 *	how many times length of list divided by 2 results in 1 is the number of steps it takes to find our number.
+
+[Play Game](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game)
+(You'll need account of khan academy to access)
+
 
 
 
