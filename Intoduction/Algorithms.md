@@ -42,8 +42,8 @@ Computer selects 2000000, you would need 2000000 guesses **(Worse Case)**
 Computer selects 1000000, you would need 1000000 guesses **(Average Case)**
 
 # Binary Search
-•	Works on sorted list.
-•	how many times length of list divided by 2 results in 1 is the number of steps it takes to find our number.
+*	Works on sorted list.
+*	how many times length of list divided by 2 results in 1 is the number of steps it takes to find our number.
 
 
 
