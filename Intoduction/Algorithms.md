@@ -30,7 +30,8 @@ Worst case is the function which performs the maximum number of steps on input d
 Given a **sorted list** computer guessed a random number from it.
 We search that number given the computer tells us if the guessed number is larger or smaller than our selected value.
 
-[Guessing Game](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game)
+[Play Guessing Game](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game) (You'll need account of khan academy to access)
+
 # Linear Search
 Searching the list from 0th index to the end in order is **Linear search**.
 Best, Worse and average case scenerio depends on luck for this matter.
@@ -45,4 +46,3 @@ Best, Worse and average case scenerio depends on luck for this matter.
 # Binary Search
 * Works on sorted list.
 * how many times length of list divided by 2 results in 1 is the number of steps it takes to find our number.
-Play Game (You'll need account of khan academy to access)
