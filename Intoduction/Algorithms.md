@@ -35,17 +35,3 @@ Computer selects 1 and you get the number on your first guess. **(Best Case)**
 Computer selects 2000000, you would need 2000000 guesses **(Worse Case)**
 
 Computer selects 1000000, you would need 1000000 guesses **(Average Case)**
-
-# Binary Search
-*	Works on sorted list.
-*	how many times length of list divided by 2 results in 1 is the number of steps it takes to find our number.
-
-[Play Game](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game)
-(You'll need account of khan academy to access)
-
-
-
-
-
-
-
