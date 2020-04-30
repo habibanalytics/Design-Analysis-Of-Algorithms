@@ -1,4 +1,4 @@
-# Algorithms-Khan-Academy
+# Algorithms (Khan Academy)
 Creating some notes from khan academy about algorithms.
 
 The first part is the introduction.
@@ -7,21 +7,22 @@ The first part is the introduction.
 
 Introduction Contains the following topics:
 
-How to measure efficiency
-* Correctness
-* Efficiency
+How do we actually measure Correctness & Efficiency of an algorithm in computer science.
 
-Case Scenerios to know about:
+Cases to analyze an algorithm:
 
 * Best case
 * Average case
 * Worse case
 
-With the help of a guessing game we will understand how an algorithm is Efficient over the other with the above case scenerios.
+We will than do an Algorithm Comparison with a given Searching problem 
+
+We will understand how an algorithm is Efficient over the other with the above case scenerios.
+
+The Algorithms we are gonna use are:
 * Linear Search
 * Binary Search
 
 
-
-
-
+# Binary Search Algorithm
+## [Binary Search](https://github.com/Habib0308/Algorithms-Khan-Academy/blob/master/Binary%20Search/Intro%20Binary%20Search.md)
