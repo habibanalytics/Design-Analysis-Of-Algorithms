@@ -16,10 +16,13 @@ Algorithm that gives good but not best result in minimum time.
 Case Scenerios to know about:
 
 *	Best case
+
 Best case is the function which performs the minimum number of steps on input data of n elements.
 *	Average case
+
 Average case is the function which performs an average number of steps on input data of n elements.
 *	Worse case
+
 Worst case is the function which performs the maximum number of steps on input data of size n. 
 
 # Guessing Game
