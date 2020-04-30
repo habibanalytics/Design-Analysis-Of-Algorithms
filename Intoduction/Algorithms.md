@@ -14,6 +14,7 @@ Algorithm resulting in correct answer or best answer (Perfect algorithms take a 
 
 Algorithm that gives good but not best result in minimum time.
 
+### The Cases to analyze an algorithm
 We can have three cases to analyze an algorithm:
 
 *	#### Best case
