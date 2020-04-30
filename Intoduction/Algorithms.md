@@ -1,5 +1,4 @@
 # Algorithms
-
 Set of steps to solving a problem
 ### How to measure efficiency
 Checking time isn’t the computer science approach because dfferent time results on different computers with different programming languages.
@@ -7,12 +6,15 @@ Checking time isn’t the computer science approach because dfferent time result
 We use **Asymtotic Analysis** to Check the efficiency and correctness of algorithm allowing us to think independently of hardware and programminng language
 
 ### correctness and efficiency
-where correctness means that a right result is obtained for all possible problem instances (size of the data structure, state of the input — sorted, unsorted, random, nearly-sorted etc), while efficiency means how the time and computer resources needed to successfully carry out the algorithm
+**Correctness** means that a right result is obtained for all possible problem instances (size of the data structure, state of the input — sorted, unsorted, random, nearly-sorted etc)
+
 Algorithm resulting in correct answer or best answer (Perfect algorithms take a lot of time)
+
+**Efficiency** means how the time and computer resources needed to successfully carry out the algorithm
 
 Algorithm that gives good but not best result in minimum time.
 
-Case Scenerios to know about:
+We can have three cases to analyze an algorithm:
 
 *	#### Best case
 
@@ -24,30 +26,41 @@ Average case is the function which performs an average number of steps on input 
 
 Worst case is the function which performs the maximum number of steps on input data of size n. 
 
-# Guessing Game
+## Algorithm Comparison
+Let's solve a searching problem.
 
-Given a **sorted list** computer guessed a random number from it.
-We search that number given the computer tells us if the guessed number is larger or smaller than our selected value.
+Given a Sorted list of 300 Elements we have to find a number in it.
+
+We will use Linear Search Algorithm and Binary Search to solve our problem. 
+
+In both algorithms the algorithms will perform differently. 
+
+Let's find out how.
+
+## Linear Search
+Searching the list from 0th index to the end in order is **Linear search**.
+
+**For example:** In the Problem we have a list of **300 elements**
+
+**(Best Case)**
+If the Number to find is in the first index of list, than the algorithm will find it in the first step.
+
+**(Worse Case)**
+Number to find is in the end of the list, allgorithm will take 300 iterations to find the number. 
+
+**(Average Case)**
+Number to find is somewhere in the center of the list, allgorithm will take 100-200 iterations to find the number. 
+# Binary Search
+It Searches a sorted array by repeatedly dividing the search interval in half. Begining with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
+
+To visualize this algorithm you can check this game:
 
 [Play Guessing Game](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game) (You'll need account of khan academy to access)
 
-# Linear Search
-Searching the list from 0th index to the end in order is **Linear search**.
-Best, Worse and average case scenerio depends on luck for this matter.
-
 **For example:** For a list of **300 elements**
 
-*Computer selects 1*, and you get the number on your first guess. **(Best Case)**
+**(Best Case)**
+ We have to find a number that is present in either the start or end of the list, Algorithm will find the number on its first iteration. 
 
-*Computer selects 300*, you would need 300 guesses **(Worse Case)**
-
-*Computer selects 150*, you would need 150 guesses **(Average Case)**
-# Binary Search
-* Works on sorted list.
-* how many times length of list divided by 2 results in 1 is the number of steps it takes to find our number.
-
-**For example:** For a list of **300 elements**
-
-*Computer selects First Element*, you'll find the number on your first guess. **(Best Case)**
-
-*Computer selects some element in the middle*, you would need maximum of 9 guesses to find the number **(Worse Case)**
+**(Worse Case)**
+We have to find a number that is present in an unknown place in the list, Algorithm will take almost 9 steps to find the number for a 300 elements list. 
