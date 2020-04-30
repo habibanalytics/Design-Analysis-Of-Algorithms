@@ -31,7 +31,7 @@ Given a **sorted list** computer guessed a random number from it.
 We search that number given the computer tells us if the guessed number is larger or smaller than our selected value.
 
 # Linear Search
-Searching the list from 0th index to the end in order is linear search.
+Searching the list from 0th index to the end in order is **Linear search**.
 Best, Worse and average case scenerio depends on luck for this matter.
 
 **For example:** For a list of **2000000 elements**
