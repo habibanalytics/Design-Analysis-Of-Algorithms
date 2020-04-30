@@ -1,7 +1,6 @@
 # Algorithms
 
 Set of steps to solving a problem
-
 ### How to measure efficiency
 Checking time isn’t the computer science approach because dfferent time results on different computers with different programming languages.
 
