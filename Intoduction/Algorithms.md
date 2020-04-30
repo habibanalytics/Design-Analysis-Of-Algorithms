@@ -56,7 +56,7 @@ It Searches a sorted array by repeatedly dividing the search interval in half. B
 
 To visualize this algorithm you can check this game:
 
-[Play Guessing Game](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game) (You'll need account of khan academy to access)
+[Play Guessing Game](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game)
 
 **For example:** For a list of **300 elements**
 
