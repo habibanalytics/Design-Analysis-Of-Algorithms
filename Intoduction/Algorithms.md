@@ -49,6 +49,6 @@ Best, Worse and average case scenerio depends on luck for this matter.
 
 **For example:** For a list of **300 elements**
 
-*Computer selects 1*, and you get the number on your first guess. **(Best Case)**
+*Computer selects First Element*, you'll find the number on your first guess. **(Best Case)**
 
-*Computer selects 300*, you would need maximum of 9 guesses to find the number **(Worse Case)**
+*Computer selects some element in the middle*, you would need maximum of 9 guesses to find the number **(Worse Case)**
