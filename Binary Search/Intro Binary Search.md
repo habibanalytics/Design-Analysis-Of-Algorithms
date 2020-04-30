@@ -1,5 +1,6 @@
 # Binary Search
-Works on sorted arrays. 
+It is a searching algorithm that finds the position of a target value within a sorted array. 
+Binary search compares the target value to the middle element of the array.
 
 ## step-by-step description of using binary search to play the guessing game:
 1. Let min = 1 and max = n.
