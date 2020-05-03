@@ -11,5 +11,7 @@ Binary search compares the target value to the middle element of the array.
 6. Go back to step two.
 ## Code in Python:
 ```python
-print("Nothing Here")
+
+
+
 ```
