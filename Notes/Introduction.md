@@ -7,12 +7,12 @@ Here's an example of writing an algorithm:
 
 **An algorithm to add two numbers entered by the user in Python.**
 
-Step 1: Start
-Step 2: Read values num1 and num2. 
-Step 3: Add num1 and num2 and assign the result to sum.
-        sum←num1+num2 
-Step 4: Display sum 
-Step 5: Stop
+* Step 1: Start
+* Step 2: Read values num1 and num2. 
+* Step 3: Add num1 and num2 and assign the result to sum.
+*         sum←num1+num2 
+* Step 4: Display sum 
+* Step 5: Stop
 ### How to measure efficiency
 Checking time isn’t the computer science approach because dfferent time results on different computers with different programming languages.
 
