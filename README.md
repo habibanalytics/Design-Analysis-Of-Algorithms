@@ -4,7 +4,6 @@ Creating some notes about algorithms.
 The first part is the introduction.
 
 ## [Introduction](https://github.com/Habib0308/Algorithms-Khan-Academy/blob/master/Intoduction/Algorithms.md)
-(Link to Notes)
 
 Introduction Contains the following topics:
 
