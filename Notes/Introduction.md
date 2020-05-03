@@ -10,7 +10,7 @@ Here's an example of writing an algorithm:
 * Step 1: Start
 * Step 2: Read values num1 and num2. 
 * Step 3: Add num1 and num2 and assign the result to sum.
-*         sum = num1+num2
+          sum = num1+num2
 * Step 4: Display sum 
 * Step 5: Stop
 ### How to measure efficiency
