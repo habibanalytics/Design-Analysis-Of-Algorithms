@@ -31,16 +31,15 @@ Algorithm that gives good but not best result in minimum time.
 ### The Cases to analyze an algorithm
 We can have three cases to analyze an algorithm:
 
-*	#### Best case
-
+Best, Average & Worse Case.
+#### Best case
 Best case is the function which performs the minimum number of steps on input data of n elements.
-*	#### Average case
-
+#### Average case
 Average case is the function which performs an average number of steps on input data of n elements.
-*	#### Worse case
-
+#### Worse case
 Worst case is the function which performs the maximum number of steps on input data of size n. 
-
+* Most of the times, we do worst case analysis to analyze algorithms.
+* We must know the case that causes maximum number of operations to be executed.
 ## Algorithm Comparison
 Let's solve a searching problem.
 
