@@ -1,5 +1,5 @@
 # Design & Analysis Of Algorithms
-Creating some notes from khan academy about algorithms.
+Creating some notes about algorithms.
 
 The first part is the introduction.
 
@@ -25,4 +25,4 @@ The Algorithms we are gonna use are:
 
 
 # Binary Search Algorithm
-## [Binary Search](https://github.com/Habib0308/Algorithms-Khan-Academy/blob/master/Binary%20Search/Intro%20Binary%20Search.md)
+## [Binary Search](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Algorithms%20in%20Python/Binary%20Search.md)
