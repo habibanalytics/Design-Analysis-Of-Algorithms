@@ -3,11 +3,13 @@ Creating some notes about algorithms.
 
 The first part is the introduction.
 
-## [Introduction](https://github.com/Habib0308/Algorithms-Khan-Academy/blob/master/Intoduction/Algorithms.md)
+## [Introduction](https://github.com/Habib0308/Algorithms-Khan-Academy/blob/master/Intoduction/Algorithms.md)(Link to Notes)
 
 Introduction Contains the following topics:
 
-How do we actually measure Correctness & Efficiency of an algorithm in computer science.
+How to measure **Correctness & Efficiency** of an algorithm?
+
+**Asymtotic Analysis**[Click Here For Notes](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Asymtotic%20Analysis.md)
 
 Cases to analyze an algorithm:
 
@@ -15,9 +17,7 @@ Cases to analyze an algorithm:
 * Average case
 * Worse case
 
-We will than do an Algorithm Comparison with a given Searching problem 
-
-We will understand how an algorithm is Efficient over the other with the above case scenerios.
+For an introductory we will do an Algorithm Comparison with a Searching problem. We will understand how an algorithm is Efficient over the other with the some case scenerios.
 
 The Algorithms we are gonna use are:
 * Linear Search
