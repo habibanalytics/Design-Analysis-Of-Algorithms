@@ -67,7 +67,7 @@ Number to find is in the end of the list, allgorithm will take 300 iterations to
 
 **(Average Case)**
 Number to find is somewhere in the center of the list, allgorithm will take 100-200 iterations to find the number. 
-# Binary Search ([for more details](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Algorithms%20in%20Python/Binary%20Search.md))
+## Binary Search ([for more details](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Algorithms%20in%20Python/Binary%20Search.md))
 It Searches a sorted array by repeatedly dividing the search interval in half. Begining with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
 
 To visualize this algorithm you can check this game:
