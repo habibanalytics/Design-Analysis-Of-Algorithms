@@ -21,5 +21,5 @@ We will do a Comparison b/w two Algorithms with a Searching problem to understan
 
 The Algorithms we are gonna use are:
 * Linear Search
-* Binary Search
+* [Binary Search](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Algorithms%20in%20Python/Binary%20Search.md)
 
