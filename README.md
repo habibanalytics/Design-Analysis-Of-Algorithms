@@ -3,7 +3,7 @@ Creating some notes about algorithms.
 
 The first part is the introduction.
 
-## [Introduction](https://github.com/Habib0308/Algorithms-Khan-Academy/blob/master/Intoduction/Algorithms.md)
+## [Introduction](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Introduction.md)
 
 Introduction Contains the following topics:
 
