@@ -1,4 +1,4 @@
-# Algorithms (Khan Academy)
+# Design & Analysis Of Algorithms
 Creating some notes from khan academy about algorithms.
 
 The first part is the introduction.
