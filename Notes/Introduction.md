@@ -19,7 +19,7 @@ Checking time isn’t the computer science approach because dfferent time result
 We use [**Asymtotic Analysis**](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Asymtotic%20Analysis.md) to Check the efficiency and correctness of algorithm allowing us to think independently of hardware and programminng language. 
 
 In Asymptotic Analysis, we evaluate the performance of an algorithm in terms of input size (we don’t measure the actual running time). We calculate, how the time (or space) taken by an algorithm increases with the input size.
-### correctness and efficiency
+### Correctness & Efficiency
 **Correctness** means that a right result is obtained for all possible problem instances (size of the data structure, state of the input — sorted, unsorted, random, nearly-sorted etc)
 
 Algorithm resulting in correct answer or best answer (Perfect algorithms take a lot of time)
