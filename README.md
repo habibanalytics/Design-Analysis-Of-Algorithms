@@ -9,7 +9,7 @@ Introduction Contains the following topics:
 
 How to measure **Correctness & Efficiency** of an algorithm?
 
-**Asymtotic Analysis** [Click Here For Notes](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Asymtotic%20Analysis.md)
+**Asymtotic Analysis** ([Click Here For Notes](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Asymtotic%20Analysis.md))
 
 Cases to analyze an algorithm:
 
@@ -26,3 +26,4 @@ The Algorithms we are gonna use are:
 
 # Binary Search Algorithm
 ## [Binary Search](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Algorithms%20in%20Python/Binary%20Search.md)
+
