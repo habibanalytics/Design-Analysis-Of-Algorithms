@@ -9,8 +9,7 @@ Introduction Contains the following topics:
 
 How to measure **Correctness & Efficiency** of an algorithm?
 
-**Asymtotic Analysis** ([Click Here For Notes](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Asymtotic%20Analysis.md))
-
+What is **Asymtotic Analysis** ([Click Here For Notes](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Asymtotic%20Analysis.md))
 Cases to analyze an algorithm:
 
 * Best case
