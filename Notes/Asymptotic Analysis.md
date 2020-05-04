@@ -49,9 +49,6 @@ Exponential Function:  a^n, where a is some constant
 ![image](https://cdn-media-1.freecodecamp.org/images/1*HwLR-DKk0lYNEMpkH475kg.png "Source: freecodecamp.org")
 
 For more info, you can also check out efficiency of Algorithms over each other [here.](https://www.bigocheatsheet.com/) 
-
-**Now Let's Discuss Some Orders of Complexity step by step with some code examples**
-
 ## Rules for Big Oh Notations
 Before We begin. Here are some Rules for Big Oh Notations:
 * Add the steps
@@ -59,6 +56,7 @@ Before We begin. Here are some Rules for Big Oh Notations:
 * Drop non dominant notations
 * represent different Inputs differently
 
+**Now Let's Discuss Some Orders of Complexity step by step with some code examples**
 ## O(1)
 Constant running time. This is the least complexity an algorithm can achieve.
 
