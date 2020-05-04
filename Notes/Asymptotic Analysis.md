@@ -63,7 +63,7 @@ Before We begin. Here are some Rules for Big Oh Notations:
 Constant running time. This is the least complexity an algorithm can achieve.
 
 Consider the following code:
-
+### Example 1:
 **Python3 program to add two numbers**
 ```python
 num1 = 15
@@ -77,6 +77,7 @@ In this program we have 4 lines of code. Each line takes **O(1)** amount of time
 ```O(1)+O(1)+O(1)+O(1) = 4*O(1)```
 Now Ignoring the constants we get:
 ```O(1)```
+### Example 2:
 **Consider annother Python program that finds Area of a circle**
 ```python  
 def findArea(r): 
@@ -87,35 +88,41 @@ print("Area is %.6f" % findArea(5));
 ```
 Even if function call is considered a step than result is same:
 ```
-O(1)+O(1)+O(1)+O(1) = 4*O(1)
-.... = O(1)
+= O(1)+O(1)+O(1)+O(1)
+= 4*O(1)
+= O(1)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Example 3:
+**If the number is positive or negative, we print an appropriate message**
 ```python
-number1 = input("First number: ") 
-number2 = input("\nSecond number: ") 
-  
-# Adding two numbers 
-# User might also enter float numbers 
-sum = float(number1) + float(number2)
-
-# Display the sum 
-# will print value in float 
-print("The sum of {0} and {1} is {2}" .format(number1, number2, sum)) 
+num = int(input("Input a number"))
+if num > 0:
+    print(num, "is a positive number.")
+print("This is always printed.")
+elif num < 0:
+    print(num, "is a Negative number.")
+else:
+    print("Number is Zero")
 ```
+Each Conditional statement has O(1) time complexity.
+```
+= O(1)+O(1)+O(1)+O(1)+O(1)+O(1)+O(1)+O(1)
+= 8*O(1)
+= O(1)  #ignoring constants
+```
+**Conclusion**
+
+The conclusion for O(1) is that when ever we find sequence of statements we consider them to be O(1) instead of counting how many lines there are.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -149,10 +156,5 @@ for a in range(n):
         print("Doing anything")
 ```
 total_time= O(n*n) = O(n^2)
-
-
-
-
-
 
 
