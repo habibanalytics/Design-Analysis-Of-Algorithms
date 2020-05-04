@@ -25,7 +25,7 @@ The Algorithms we are gonna use are:
 
 After Introduction We study:
 ## [Asymptotic Analysis](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Asymptotic%20Analysis.md)
-We cover the following topics:
+**We cover the following topics:**
 
 Asymptotic Notations
 
@@ -33,7 +33,7 @@ Order of Complexity
 
 Rules for Big Oh Notations
 
-Big-Oh(O) Notations in Details:
+Big-Oh(O) Notations in Details with some code examples:
 * O(1)
 * O(log(n))
 * O((log(n<sup>c</sup>)) (Not yet)
