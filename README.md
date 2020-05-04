@@ -24,7 +24,7 @@ The Algorithms we are gonna use are:
 * [Binary Search](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Algorithms%20in%20Python/Binary%20Search.md)
 
 After Introduction We study:
-### [Asymptotic Analysis](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Asymptotic%20Analysis.md)
+## [Asymptotic Analysis](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Asymptotic%20Analysis.md)
 We cover the following topics:
 Asymptotic Notations
 Big-Oh(O) notation
