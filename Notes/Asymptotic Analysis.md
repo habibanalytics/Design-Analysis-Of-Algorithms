@@ -52,14 +52,15 @@ For more info, you can also check out efficiency of Algorithms over each other [
 
 **Now Let's Discuss Some Orders of Complexity step by step with some code examples**
 
-## O(1)
-Constant running time. This is the least complexity an algorithm can achieve.
-
-Here are some Rules for Big Oh Notations:
+## Rules for Big Oh Notations
+Before We begin. Here are some Rules for Big Oh Notations:
 * Add the steps
 * Ignore the constants
 * Drop non dominant notations
 * represent different Inputs differently
+
+## O(1)
+Constant running time. This is the least complexity an algorithm can achieve.
 
 Consider the following code:
 
