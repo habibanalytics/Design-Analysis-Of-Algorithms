@@ -11,13 +11,11 @@ The three notations for three types of cases:
 * Big-Theta(Θ) notation
 * Big-Omega(Ω) notation
 ### Big-Oh(O) notation
-It always represents upper bound.
-
+* It always represents upper bound.
 * Ignores constants
 * Ignores lower order terms
 * Mostly used
-* Least Upper bound
-* Worse Case
+* Used for Worse Case
 ### Big-Omega(Ω) notation
 * Lower Bound
 * Best Case
@@ -26,9 +24,14 @@ It always represents upper bound.
 * Average Case
 
 # Big-Oh(O)
-f(n)= 2n^2 + n
+```python
+
+```
+
 
 You can check out efficiency of algorithms over each other [here.](https://www.bigocheatsheet.com/) 
+
+![image](https://cdn-media-1.freecodecamp.org/images/1*HwLR-DKk0lYNEMpkH475kg.png)
 
 1 < log(n) < n^(1/2) < n < nlog(n) < n^2 < n^3 < ........ n^k < 2^n < 3^n ...... < n^n
 
