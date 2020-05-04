@@ -5,7 +5,7 @@ In Asymptotic Analysis, we evaluate the performance of an algorithm in terms of 
 Mathematical way of representing time complexity.
 We check how many number of times a statement is executed by some notations.
 
-**Types of Asymptotic Notation:**
+**Types of Asymptotic Notations:**
 * Big-Oh(O) notation
 * Big-Theta(Θ) notation
 * Big-Omega(Ω) notation
@@ -33,25 +33,16 @@ Quadratic Function:  an^2 + bn + c
 Polynomial Function:  an^z + . . . + an^2 + a*n^1 + a*n^0, (where z is some constant)
 Exponential Function:  a^n, where a is some constant
 ```
-Here are some Asymtotic Notations:
-
-O(1) constant
-O(log(n)) logarithmic
-O((log(n^c)) polylogarithmic
-O(n) linear
-O(n^2) quadratic
-O(n^c) polynomial
-O(c^n) exponential
-
+**Here are some Asymtotic Notations:**
 | Type| Notation |
 | ------------------ |:-------------:|
 | constant |O(1)|
 | logarithmic |O(log(n))|
-| polylogarithmic |O((log(n^c))|
+| polylogarithmic |O((log(n<sup>c</sup>))|
 | linear|O(n)|
-| quadratic|O(n^2)|
-| polynomial|O(n^c)|
-| exponential|O(c^n)|
+| quadratic|O(n<sup>2</sup>)|
+| polynomial|O(n<sup>c</sup>)|
+| exponential|O(c<sup>n</sup>)|
 
 1 < log(n) < n^(1/2) < n < nlog(n) < n^2 < n^3 < ........ n^k < 2^n < 3^n ...... < n^n
 
