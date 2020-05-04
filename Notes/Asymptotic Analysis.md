@@ -48,7 +48,11 @@ Exponential Function:  a^n, where a is some constant
 
 ## Order of Complexity
 1 **<** log(n) **<** n<sup>(1/2)</sup> **<** n **<** nlog(n) **<** n<sup>2</sup> **<** n<sup>3</sup> **<** ........ n<sup>c</sup> **<** 2<sup>n</sup> **<** 3<sup>n</sup> ...... **<** c<sup>n</sup>
-<sup></sup>
+
+![image](https://cdn-media-1.freecodecamp.org/images/1*HwLR-DKk0lYNEMpkH475kg.png "Source: freecodecamp.org")
+
+You can check out efficiency of Algorithms over each other [here.](https://www.bigocheatsheet.com/) 
+
 
 
 ```python
@@ -77,9 +81,6 @@ for a in range(n):
 total_time= O(n*n) = O(n^2)
 
 
-You can check out efficiency of algorithms over each other [here.](https://www.bigocheatsheet.com/) 
-
-![image](https://cdn-media-1.freecodecamp.org/images/1*HwLR-DKk0lYNEMpkH475kg.png)
 
 
 
