@@ -26,13 +26,14 @@ The Algorithms we are gonna use are:
 After Introduction We study:
 ## [Asymptotic Analysis](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Notes/Asymptotic%20Analysis.md)
 We cover the following topics:
-* Asymptotic Notations
-* Big-Oh(O) notation
-* Big-Omega(Ω) notation
-* Big-Theta(Θ) notation
-* Order of Complexity
-* Rules for Big Oh Notations
-* Big-Oh(O) Notations in Details:
+
+Asymptotic Notations
+
+Order of Complexity
+
+Rules for Big Oh Notations
+
+Big-Oh(O) Notations in Details:
 * O(1)
 * O(log(n))
 * O((log(n<sup>c</sup>)) (Not yet)
