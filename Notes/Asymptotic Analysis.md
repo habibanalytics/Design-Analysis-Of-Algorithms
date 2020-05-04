@@ -4,16 +4,13 @@ In Asymptotic Analysis, we evaluate the performance of an algorithm in terms of 
 ## Asymptotic Notations
 Mathematical way of representing time complexity.
 We check how many number of times a statement is executed by some notations.
+So we can't say it takes 1.2 seconds of time. We will always represent time-complexity with some notation
 
 **Types of Asymptotic Notations:**
 * Big-Oh(O) notation
 * Big-Theta(Θ) notation
 * Big-Omega(Ω) notation
 ### Big-Oh(O) notation
-* Add the  steps
-* Ignore constants
-* Drop non dominant notations
-* Different Inputs represented differently
 * Mostly used
 * Used for Worse Case analysis
 * Represents upper bound
@@ -51,7 +48,79 @@ Exponential Function:  a^n, where a is some constant
 
 ![image](https://cdn-media-1.freecodecamp.org/images/1*HwLR-DKk0lYNEMpkH475kg.png "Source: freecodecamp.org")
 
-You can check out efficiency of Algorithms over each other [here.](https://www.bigocheatsheet.com/) 
+For more info, you can also check out efficiency of Algorithms over each other [here.](https://www.bigocheatsheet.com/) 
+
+**Now Let's Discuss Some Orders of Complexity step by step with some code examples**
+
+## O(1)
+Constant running time. This is the least complexity an algorithm can achieve.
+
+Here are some Rules for Big Oh Notations:
+* Add the steps
+* Ignore the constants
+* Drop non dominant notations
+* represent different Inputs differently
+
+Consider the following code:
+
+**Python3 program to add two numbers**
+```python
+num1 = 15
+num2 = 12
+# Adding both numbers
+sum = num1 + num2 
+# printing values 
+print("Sum of {0} and {1} is {2}" .format(num1, num2, sum)) 
+```
+In this program we have 4 lines of code. Each line takes **O(1)** amount of time and following the rule we add them up, it becomes:
+```O(1)+O(1)+O(1)+O(1) = 4*O(1)```
+Now Ignoring the constants we get:
+```O(1)```
+**Consider annother Python program that finds Area of a circle**
+```python  
+def findArea(r): 
+    PI = 3.142
+    return PI * (r*r);
+    
+print("Area is %.6f" % findArea(5)); 
+```
+Even if function call is considered a step than result is same:
+```
+O(1)+O(1)+O(1)+O(1) = 4*O(1)
+.... = O(1)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```python
+number1 = input("First number: ") 
+number2 = input("\nSecond number: ") 
+  
+# Adding two numbers 
+# User might also enter float numbers 
+sum = float(number1) + float(number2)
+
+# Display the sum 
+# will print value in float 
+print("The sum of {0} and {1} is {2}" .format(number1, number2, sum)) 
+```
+
+
+
+
+
+
 
 
 
