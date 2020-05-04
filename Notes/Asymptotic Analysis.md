@@ -46,9 +46,10 @@ Exponential Function:  a^n, where a is some constant
 | polynomial|O(n<sup>c</sup>)|
 | exponential|O(c<sup>n</sup>)|
 
-Order of Complexity
+## Order of Complexity
 1 **<** log(n) **<** n<sup>(1/2)</sup> **<** n **<** nlog(n) **<** n<sup>2</sup> **<** n<sup>3</sup> **<** ........ n<sup>c</sup> **<** 2<sup>n</sup> **<** 3<sup>n</sup> ...... **<** c<sup>n</sup>
 <sup></sup>
+
 
 ```python
 def func(arrA, arrB):
