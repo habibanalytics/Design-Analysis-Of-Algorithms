@@ -11,12 +11,14 @@ We check how many number of times a statement is executed by some notations.
 * Big-Omega(Ω) notation
 ### Big-Oh(O) notation
 * Add the  steps
-* Represents upper bound.
-* Ignores constants
+* Ignore constants
 * Drop non dominant notations
 * Different Inputs represented differently
 * Mostly used
-* Used for Worse Case
+* Used for Worse Case analysis
+* Represents upper bound
+
+[For More Details](http://web.mit.edu/16.070/www/lecture/big_o.pdf)
 ### Big-Omega(Ω) notation
 * Lower Bound
 * Best Case
@@ -33,7 +35,7 @@ Quadratic Function:  an^2 + bn + c
 Polynomial Function:  an^z + . . . + an^2 + a*n^1 + a*n^0, (where z is some constant)
 Exponential Function:  a^n, where a is some constant
 ```
-**Here are some Asymtotic Notations:**
+**Here are some Asymtotic Notations for the above Functions:**
 | Type| Notation |
 | ------------------ |:-------------:|
 | constant |O(1)|
@@ -44,8 +46,9 @@ Exponential Function:  a^n, where a is some constant
 | polynomial|O(n<sup>c</sup>)|
 | exponential|O(c<sup>n</sup>)|
 
-1 < log(n) < n^(1/2) < n < nlog(n) < n^2 < n^3 < ........ n^k < 2^n < 3^n ...... < n^n
-
+Order of Complexity
+1 **<** log(n) **<** n<sup>(1/2)</sup> **<** n **<** nlog(n) **<** n<sup>2</sup> **<** n<sup>3</sup> **<** ........ n<sup>c</sup> **<** 2<sup>n</sup> **<** 3<sup>n</sup> ...... **<** c<sup>n</sup>
+<sup></sup>
 
 ```python
 def func(arrA, arrB):
