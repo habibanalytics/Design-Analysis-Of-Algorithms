@@ -56,7 +56,7 @@ Before We begin. Here are some Rules for Big Oh Notations:
 * Drop non dominant notations
 * represent different Inputs differently
 
-**Now Let's Discuss Some Orders of Complexity step by step with some code examples**
+**Now Let's Discuss Some Orders of Complexity step by step with some code examples** [For Reading](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 ## O(1)
 Constant running time. This is the least complexity an algorithm can achieve.
 
@@ -108,16 +108,145 @@ Each Conditional statement has O(1) time complexity.
 = 8*O(1)
 = O(1)  #ignoring constants
 ```
+### Example 4:
+**If a loop runs constant (fixed) number of times**
+```python
+for a in range(100000):
+    #anything
+```
+The loop above will only run 100000 number of times. It's fixed so it will be considered O(1)
+
+
 **Conclusion**
 
-The conclusion for O(1) is that when ever we find sequence of statements we consider them to be O(1) instead of counting how many lines there are.
+The conclusion for **O(1)** is that when ever we find sequence of statements we consider them to be O(1) instead of counting how many lines there are.
+
+## O(n)
+An algorithm whose performance will grow linearly (or "linear time") and in direct proportion to the size of the input data set.
+
+Consider the following code:
+
+### Example 1:
+**Copying a python list**
+```python
+list = ['cat', 0, 6.7, ]
+new_list = list.copy()
+```
+In this program we are creating a copy of a list with **n** elements.
+The size can be n no of elements, so copying a list takes n number of steps.
+```O(n)```
+
+### Example 2:
+**Inserting tuple to the list**
+```
+mixed_list = [{1, 2}, [5, 6, 7]]
+# number tuple
+number_tuple = (3, 4)
+mixed_list.insert(1, number_tuple)
+```
+Inserting an element in a list at any index is done linearly underneath. and at any given index would be within the size of list.
+```O(n)```
+
+### Example 3:
+**Adding elements of list by condition**
+```python
+# List of numbers
+numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11] #n elements
+sum = 0
+
+for val in numbers:
+	if val%2==0
+        sum = sum+val
+
+print("The sum is", sum)
+```
+In this code the loop is iterating over the list linearly of size n. so the running time complexity will be:
+```O(n)```
+
+### Example 4:
+**Checking element in List / String**
+```
+s= "kjn nn nkj bkj  kkb kb kjsbakjdbaskdb hbadk b kb bjhabjhsbsajhbcaj ajhb alhb lk hbaj jhba l"
+x="jhba"
+x in s
+```
+```in``` also searches linearly in a list or string.
+```O(n)```
+### Example 5:
+**Checking element in List / String**
+```python
+def is_unique3 (alist):
+    aset = set(alist)			    # O(N)
+    return len(aset) == len(alist)	# O(1)
+```
+The complexity for executing the entire function is 
+```
+O(N) + O(1) =
+O(N + 1) = O(N)
+```
+### Example 6:
+**Program to add natural numbers up to 1+2+3+...+ n**
+```python
+n = int(input("Enter n: "))     # O(1) 
+sum = 0                         # O(1)
+i = 1                           # O(1)
+
+while i <= n:                   # O(n)
+    sum = sum + i               # O(1)
+    i = i+1                     # O(1)
+
+print("The sum is", sum)        # O(1)
+```
+Complexity for above will be
+```
+O(1)+ O(1)+ O(1)+ O(n)+ O(1)+ O(1)+ O(1)
+O(1+1+1+n+1+1+1) = O(6n)    # We don't write like this: 6+n
+O(n)
+```
+
+
+
+### Some List operations in python with O(n) complexity:
+* Delete Item
+* Iteration
+* Del Slice
+* min(s)
+* max(s)
+* Remove
+* Reverse
+* for i in range(len(alist)): is O(N) because it loops **n** times.
+### Some Dictionary operations in python with O(n) complexity:
+* Copy
+* Get Item
+* Set Item
+* Delete Item
+* Iteration
+
+### Some other examples for O(n):
+* Traversing an array
+* Traversing a linked list
+* Linear Search
+* Deletion of a specific element in a Linked List (Not sorted)
+* Comparing two strings
+* Checking for Palindrome
 
 
 
 
 
+## O(n<sup>2</sup>)
+O(N2) represents an algorithm whose performance is directly proportional to the square of the size of the input data set.
+[Programs](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 
-
+### Example 1:
+**A list is unique if each value in the list does not occur in any later indexes: alist[i+1:] is a list slice containing all values after the one at index i.**
+```python
+def is_unique1 (alist):
+    for i in range(len(alist)):		# O(N)
+        if alist[i] in alist[i+1:]:	# O(N)
+            return False		    # O(1)
+    return True				        # O(1)
+```
 
 
 
