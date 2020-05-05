@@ -64,57 +64,58 @@ Consider the following code:
 ### Example 1:
 **Python3 program to add two numbers**
 ```python
-num1 = 15
-num2 = 12
-# Adding both numbers
-sum = num1 + num2 
-# printing values 
-print("Sum of {0} and {1} is {2}" .format(num1, num2, sum)) 
+num1 = 15							# O(1)
+num2 = 12							# O(1)
+# Adding both numbers						
+sum = num1 + num2 						# O(1)
+# printing values 						
+print("Sum of {0} and {1} is {2}" .format(num1, num2, sum))	# O(1) 
 ```
 In this program we have 4 lines of code. Each line takes **O(1)** amount of time and following the rule we add them up, it becomes:
-```O(1)+O(1)+O(1)+O(1) = 4*O(1)```
-Now Ignoring the constants we get:
+```O(1)+O(1)+O(1)+O(1) = O(1+1+1+1) = O(4)```
+Ignoring the constants we get:
 ```O(1)```
 ### Example 2:
 **Consider annother Python program that finds Area of a circle**
 ```python  
 def findArea(r): 
-    PI = 3.142
-    return PI * (r*r);
+    PI = 3.142 					# O(1)
+    return PI * (r*r);				# O(1)
     
-print("Area is %.6f" % findArea(5)); 
+print("Area is %.6f" % findArea(5)); 		# O(1)
 ```
-Even if function call is considered a step than result is same:
 ```
-= O(1)+O(1)+O(1)+O(1)
-= 4*O(1)
-= O(1)
+= O(1)+O(1)+O(1)
+= O(1+1+1)
+= O(3)
+= O(1)    'ignoring constants'
 ```
 ### Example 3:
 **If the number is positive or negative, we print an appropriate message**
 ```python
-num = int(input("Input a number"))
-if num > 0:
-    print(num, "is a positive number.")
-print("This is always printed.")
-elif num < 0:
-    print(num, "is a Negative number.")
-else:
-    print("Number is Zero")
+num = int(input("Input a number"))				# O(1)
+if num > 0:							# O(1)
+    print(num, "is a positive number.")				# O(1)
+print("This is always printed.")				# O(1)
+elif num < 0:							# O(1)
+    print(num, "is a Negative number.")				# O(1)
+else:								# O(1)
+    print("Number is Zero")					# O(1)
 ```
 Each Conditional statement has O(1) time complexity.
 ```
 = O(1)+O(1)+O(1)+O(1)+O(1)+O(1)+O(1)+O(1)
-= 8*O(1)
-= O(1)  #ignoring constants
+= O(1+1+1+1+1+1+1+1)
+= O(8)
+= O(1)  'ignoring constants'
 ```
 ### Example 4:
 **If a loop runs constant (fixed) number of times**
 ```python
-for a in range(100000):
-    #anything
+for a in range(100000):				# O(1)
+    #anything					# O(1)
 ```
-The loop above will only run 100000 number of times. It's fixed so it will be considered O(1)
+The loop above will only run 100000 number of times. It's fixed so it will be considered ```O(1)```
 
 
 **Conclusion**
@@ -129,8 +130,8 @@ Consider the following code:
 ### Example 1:
 **Copying a python list**
 ```python
-list = ['cat', 0, 6.7, ]
-new_list = list.copy()
+list = ['cat', 0, 6.7, ]				# size n
+new_list = list.copy()					# O(n)
 ```
 In this program we are creating a copy of a list with **n** elements.
 The size can be n no of elements, so copying a list takes n number of steps.
@@ -139,50 +140,64 @@ The size can be n no of elements, so copying a list takes n number of steps.
 ### Example 2:
 **Inserting tuple to the list**
 ```
-mixed_list = [{1, 2}, [5, 6, 7]]
+mixed_list = [{1, 2}, [5, 6, 7]]				# size n
 # number tuple
-number_tuple = (3, 4)
-mixed_list.insert(1, number_tuple)
+number_tuple = (3, 4)						# O(1)
+mixed_list.insert(1, number_tuple)				# O(n)
 ```
-Inserting an element in a list at any index is done linearly underneath. and at any given index would be within the size of list.
-```O(n)```
+Inserting an element in a list at any index is done linearly underneath. Inserting at any given index would be within the size of list 'n'.
+```
+O(1)+O(n)
+= O(1+n)
+= O(n)
+```
 
 ### Example 3:
 **Adding elements of list by condition**
 ```python
 # List of numbers
-numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11] #n elements
-sum = 0
+numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11] 			#n elements
+sum = 0						# O(1)
 
-for val in numbers:
-	if val%2==0
-        sum = sum+val
+for val in numbers:				# O(n)
+	if val%2==0				# O(1)
+        sum = sum+val				# O(1)
 
-print("The sum is", sum)
+print("The sum is", sum)			# O(1)
 ```
 In this code the loop is iterating over the list linearly of size n. so the running time complexity will be:
-```O(n)```
+```
+O(1)+O(n)+O(1)+O(1)+O(1)
+= O(1+n+1+1+1)
+= O(4+n)
+= O(n)
+```
 
 ### Example 4:
 **Checking element in List / String**
 ```
-s= "kjn nn nkj bkj  kkb kb kjsbakjdbaskdb hbadk b kb bjhabjhsbsajhbcaj ajhb alhb lk hbaj jhba l"
-x="jhba"
-x in s
+s= "kjn nn nkj bkj  kkb kb kjsbakjdbaskdb hbadk b kb bjhabjhsbsajhbcaj ajhb alhb lk hbaj jhba l"     # size n
+x="jhba"				# O(1)
+x in s				# O(n)
 ```
 ```in``` also searches linearly in a list or string.
-```O(n)```
+```
+O(1)+O(n)
+= O(n+1)
+= O(n)
+```
 ### Example 5:
 **Checking element in List / String**
 ```python
 def is_unique3 (alist):
-    aset = set(alist)			    # O(N)
-    return len(aset) == len(alist)	# O(1)
+    aset = set(alist)				# O(n)
+    return len(aset) == len(alist)		# O(1)
 ```
 The complexity for executing the entire function is 
 ```
-O(N) + O(1) =
-O(N + 1) = O(N)
+O(N) + O(1)
+= O(N + 1) 
+= O(N)
 ```
 ### Example 6:
 **Program to add natural numbers up to 1+2+3+...+ n**
@@ -200,8 +215,9 @@ print("The sum is", sum)        # O(1)
 Complexity for above will be
 ```
 O(1)+ O(1)+ O(1)+ O(n)+ O(1)+ O(1)+ O(1)
-O(1+1+1+n+1+1+1) = O(6n)    # We don't write like this: 6+n
-O(n)
+= O(1+1+1+n+1+1+1) 
+= O(6+n)    
+= O(n)
 ```
 
 
