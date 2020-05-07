@@ -124,6 +124,7 @@ The conclusion for **O(1)** is that when ever we find sequence of statements we 
 
 ## O(n)
 An algorithm whose performance will grow linearly (or "linear time") and in direct proportion to the size of the input data set.
+Our runtime will increase proportionally to how much our input increases.
 
 Consider the following code:
 
@@ -186,41 +187,20 @@ O(1)+O(n)
 = O(n+1)
 = O(n)
 ```
+### Different Inputs are represented differently so:
 ### Example 5:
-**Checking element in List / String**
 ```python
-def is_unique3 (alist):
-    aset = set(alist)				# O(n)
-    return len(aset) == len(alist)		# O(1)
+arr1= list(map(int, input().rstrip().split()))
+arr2= list(map(int, input().rstrip().split()))
+for a in arr1:
+    #O(1) Operations
+for b in arr2:
+    #O(1) Operations
 ```
-The complexity for executing the entire function is 
 ```
-O(N) + O(1)
-= O(N + 1) 
-= O(N)
+Represented like this
+O(n)+O(m)
 ```
-### Example 6:
-**Program to add natural numbers up to 1+2+3+...+ n**
-```python
-n = int(input("Enter n: "))     # O(1) 
-sum = 0                         # O(1)
-i = 1                           # O(1)
-
-while i <= n:                   # O(n)
-    sum = sum + i               # O(1)
-    i = i+1                     # O(1)
-
-print("The sum is", sum)        # O(1)
-```
-Complexity for above will be
-```
-O(1)+ O(1)+ O(1)+ O(n)+ O(1)+ O(1)+ O(1)
-= O(1+1+1+n+1+1+1) 
-= O(6+n)    
-= O(n)
-```
-
-
 
 ### Some List operations in python with O(n) complexity:
 * Delete Item
@@ -252,16 +232,19 @@ O(1)+ O(1)+ O(1)+ O(n)+ O(1)+ O(1)+ O(1)
 
 ## O(n<sup>2</sup>)
 O(N2) represents an algorithm whose performance is directly proportional to the square of the size of the input data set.
+
+Some Examples would be Nested Loops.
+
 [Programs](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 
 ### Example 1:
 **A list is unique if each value in the list does not occur in any later indexes: alist[i+1:] is a list slice containing all values after the one at index i.**
 ```python
 def is_unique1 (alist):
-    for i in range(len(alist)):		# O(N)
-        if alist[i] in alist[i+1:]:	# O(N)
-            return False		    # O(1)
-    return True				        # O(1)
+    for i in range(len(alist)):		# O(n)
+        if alist[i] in alist[i+1:]:	# O(b)
+            return False		# O(1)
+    return True				# O(1)
 ```
 
 
