@@ -238,26 +238,18 @@ Some Examples would be Nested Loops.
 [Programs](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 
 ### Example 1:
-**A list is unique if each value in the list does not occur in any later indexes: alist[i+1:] is a list slice containing all values after the one at index i.**
 ```python
-def is_unique1 (alist):
-    for i in range(len(alist)):		# O(n)
-        if alist[i] in alist[i+1:]:	# O(b)
-            return False		# O(1)
-    return True				# O(1)
+for a in range(n):			# O(n)
+    for b in range(n):			# O(n)
+        print("Doing anything")		# O(1)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
+```
+O(n)*O(n)
+O(n*n)
+O(n<sup>2</sup>)
+```
+### Example 2:
+**Different Inputs nested**
 ```python
 def func(arrA, arrB):
     coun=0
@@ -269,18 +261,16 @@ def func(arrA, arrB):
 ```
 This algorithm has O(a*b) complexity
 
+## O(n<sup>3 or higher</sup>)
+It al depends on how much nested loops we have
 ```python
-x= 5*(15*20)
-y= 15-2
-print(x+y)
+for a in range(n):			# O(n)
+    for b in range(n):			# O(n)
+        for c in range(n):		# O(n)
+	    print("Doing anything")     # O(1)
 ```
-total_time= O(1) + O(1) + O(1) = 3*O(1) "Ignore constants" = O(1)
-
-```python
-for a in range(n):
-    for b in range(n):
-        print("Doing anything")
 ```
-total_time= O(n*n) = O(n^2)
-
-
+O(n)*O(n)*O(n)
+O(n*n*n)
+O(n<sup>3</sup>)
+```
