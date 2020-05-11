@@ -274,3 +274,24 @@ O(n)*O(n)*O(n)
 O(n*n*n)
 O(n<sup>3</sup>)
 ```
+
+## O(log(n))
+Logarithmic time complexities usually apply to algorithms that divide problems in half every time.
+
+![image](https://files.realpython.com/media/linear_binary_plot.0fc7428a70f0.png)
+
+Algorithms with logarithmic time complexity are commonly found in operations on **binary trees** or when using **binary search**.
+
+**Note:** We are talking Log<sub>2</sub> (Log Base 2) in computer science.
+
+[Binary Search](https://github.com/Habib0308/Design-Analysis-Of-Algorithms/blob/master/Algorithms%20in%20Python/Binary%20Search.md)
+
+```python
+n= 1000000
+a=1
+while a<=n:
+    a*=2
+```
+This program is incrementing twice itself everytime so complexity becomes ```log(n)```
+
+
