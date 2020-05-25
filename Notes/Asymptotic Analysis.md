@@ -260,6 +260,21 @@ def func(arrA, arrB):
      return count
 ```
 This algorithm has O(a*b) complexity
+### Example 3:
+**Recursive call and each time n decreases by 1**
+```python
+def func(n):
+    coun=0
+    if n>0:
+        for b in range(n):
+            print(b)
+	func(n-1)
+```
+This algorithm has complexity of:
+```
+0+1+2+3+4+5+6+7+8........n(n-1)/2
+```
+O(n<sup>2</sup>)
 
 ## O(n<sup>3 or higher</sup>)
 It al depends on how much nested loops we have
