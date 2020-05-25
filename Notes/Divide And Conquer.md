@@ -22,13 +22,13 @@ DAC(a, i, j)
 ```
 
 ### Algorithms that are under Divide And Conquer
-Binary Search 
-Quicksort
-Merge Sort 
-Closest Pair of Points 
-Strassen’s Algorithm 
-Cooley–Tukey Fast Fourier Transform (FFT) algorithm
-Karatsuba algorithm for fast multiplication
+* Binary Search 
+* Quicksort
+* Merge Sort 
+* Closest Pair of Points 
+* Strassen’s Algorithm 
+* Cooley–Tukey Fast Fourier Transform (FFT) algorithm
+* Karatsuba algorithm for fast multiplication
 
 
 
