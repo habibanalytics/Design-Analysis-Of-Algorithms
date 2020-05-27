@@ -15,6 +15,7 @@ So we can't say it takes 1.2 seconds of time. We will always represent time-comp
 * Used for Worse Case analysis
 * Represents upper bound
 
+
 [For More Details](http://web.mit.edu/16.070/www/lecture/big_o.pdf)
 ### Big-Omega(Ω) notation
 * Lower Bound
