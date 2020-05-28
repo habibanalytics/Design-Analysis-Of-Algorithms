@@ -91,33 +91,6 @@ print("Area is %.6f" % findArea(5)); 		# O(1)
 = O(3)
 = O(1)    'ignoring constants'
 ```
-### Example 3:
-**If the number is positive or negative, we print an appropriate message**
-```python
-num = int(input("Input a number"))				# O(1)
-if num > 0:							# O(1)
-    print(num, "is a positive number.")				# O(1)
-print("This is always printed.")				# O(1)
-elif num < 0:							# O(1)
-    print(num, "is a Negative number.")				# O(1)
-else:								# O(1)
-    print("Number is Zero")					# O(1)
-```
-Each Conditional statement has O(1) time complexity.
-```
-= O(1)+O(1)+O(1)+O(1)+O(1)+O(1)+O(1)+O(1)
-= O(1+1+1+1+1+1+1+1)
-= O(8)
-= O(1)  'ignoring constants'
-```
-### Example 4:
-**If a loop runs constant (fixed) number of times**
-```python
-for a in range(100000):				# O(1)
-    #anything					# O(1)
-```
-The loop above will only run 100000 number of times. It's fixed so it will be considered ```O(1)```
-
 
 **Conclusion**
 
